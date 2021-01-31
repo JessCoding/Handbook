@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Build and run the site manually - Simple Handbook</title>
+  <link href="/Handbook/assets/css/dist.css" type="text/css" rel="stylesheet">
+  <script src="/Handbook/assets/js/dist.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <header>
+    <h1>
+      <a href="/Handbook/">
+        <i class="icon"></i>
+        Simple Handbook
+      </a>
+    </h1>
+  </header>
+
+  <div class="container">
+    <nav class="global">
+      <h1>Menu</h1>
+      <ul><li class="has-children"><a href="/Handbook/getting-started/">Getting started</a><ul><li><a href="/Handbook/getting-started/github/">Deploy with GitHub Pages</a></li>
+<li class="selected"><a href="/Handbook/getting-started/manual/">Build and run the site manually</a></li>
+<li><a href="/Handbook/getting-started/navigation/">Configure the navigation bar and breadcrumbs</a></li>
+<li><a href="/Handbook/getting-started/site-title/">Set the title of your handbook</a></li></ul></li>
+<li class="has-children"><a href="/Handbook/writing-content/">Writing content</a><ul><li><a href="/Handbook/writing-content/markdown/">Writing with Markdown</a></li>
+<li><a href="/Handbook/writing-content/page-title/">Set the title for a page</a></li>
+<li><a href="/Handbook/writing-content/callout-boxes/">Using callout boxes</a></li></ul></li>
+<li class="has-children"><a href="/Handbook/examples/">Examples</a><ul><li><a href="/Handbook/examples/content/">Content</a></li>
+<li><a href="/Handbook/examples/emoji/">Emoji</a></li></ul></li></ul>
+    </nav>
+
+    <main>
+      
+  <div class="breadcrumbs">
+    <ul><li><a href="/Handbook/">Home</a></li>
+<li><a href="/Handbook/getting-started/">Getting started</a></li></ul>
+  </div>
+
+
+      <div class="content">
+        <h1 class="title">Build and run the site manually</h1>
+
+        <p>Build and run the site manually on your own computer if you want to make changes to the template or settings.</p>
+<p><div class="table-of-contents"><h1>On this page:</h1><ul><li><a href="#dependencies">Dependencies</a></li><li><a href="#quick-start">Quick start</a></li></ul></div></p>
+<h1 id="dependencies">Dependencies</h1>
+<p>You'll need to install <a href="https://nodejs.org/en/">NodeJS</a> before you start.</p>
+<p>If you're running on a Mac, you'll likely need to install the Xcode Developer Tools. Run <code>xcode-select --install</code> before you begin.</p>
+<h1 id="quick-start">Quick start</h1>
+<pre><code># Clone the repository
+git clone https://github.com/&lt;your username&gt;/&lt;your repository&gt;.git
+
+cd _site/
+
+# Install dependencies
+npm install
+
+# Build the site once
+npm run build
+
+# Run the development server
+npm run start
+</code></pre>
+<div class="callout-warning"><p>Almost all the code to build the handbook lives in the <code>_site</code> directory, deliberately away from your content.</p>
+<p>You'll need to be in this directory to run <code>npm</code> commands.</p>
+</div>
+<p>The development server runs on <a href="http://localhost:3000/">http://localhost:3000/</a> and uses BrowserSync to automatically reload the site when you make a change.</p>
+
+
+        
+
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>

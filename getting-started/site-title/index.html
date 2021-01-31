@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Set the title of your handbook - Simple Handbook</title>
+  <link href="/Handbook/assets/css/dist.css" type="text/css" rel="stylesheet">
+  <script src="/Handbook/assets/js/dist.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <header>
+    <h1>
+      <a href="/Handbook/">
+        <i class="icon"></i>
+        Simple Handbook
+      </a>
+    </h1>
+  </header>
+
+  <div class="container">
+    <nav class="global">
+      <h1>Menu</h1>
+      <ul><li class="has-children"><a href="/Handbook/getting-started/">Getting started</a><ul><li><a href="/Handbook/getting-started/github/">Deploy with GitHub Pages</a></li>
+<li><a href="/Handbook/getting-started/manual/">Build and run the site manually</a></li>
+<li><a href="/Handbook/getting-started/navigation/">Configure the navigation bar and breadcrumbs</a></li>
+<li class="selected"><a href="/Handbook/getting-started/site-title/">Set the title of your handbook</a></li></ul></li>
+<li class="has-children"><a href="/Handbook/writing-content/">Writing content</a><ul><li><a href="/Handbook/writing-content/markdown/">Writing with Markdown</a></li>
+<li><a href="/Handbook/writing-content/page-title/">Set the title for a page</a></li>
+<li><a href="/Handbook/writing-content/callout-boxes/">Using callout boxes</a></li></ul></li>
+<li class="has-children"><a href="/Handbook/examples/">Examples</a><ul><li><a href="/Handbook/examples/content/">Content</a></li>
+<li><a href="/Handbook/examples/emoji/">Emoji</a></li></ul></li></ul>
+    </nav>
+
+    <main>
+      
+  <div class="breadcrumbs">
+    <ul><li><a href="/Handbook/">Home</a></li>
+<li><a href="/Handbook/getting-started/">Getting started</a></li></ul>
+  </div>
+
+
+      <div class="content">
+        <h1 class="title">Set the title of your handbook</h1>
+
+        <p>Your handbook's title appears in the header of the page, and in the <code>&lt;title&gt;</code> tag that displays in your browser's window or tab.</p>
+<p>By default, it's <em><strong>Simple Handbook</strong></em> but you can change this by editing the <code>_site/data/siteTitle.js</code> file.</p>
+<p>The file looks like this:</p>
+<pre><code>module.exports = &quot;Simple Handbook&quot;
+</code></pre>
+<p>Replace <code>Simple Handbook</code> with your site's title, being careful not to change the <code>&quot;</code> at either side.</p>
+<p>If you're using GitHub Pages, saving the file will automatically re-build your site with the updated title.</p>
+
+
+        
+
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
