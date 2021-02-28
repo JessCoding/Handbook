@@ -1,5 +1,5 @@
 ---
-title: My foodie father
+title: My Foodie Father
 ---
 
 Every cold winter came, I missed my father more and more. To use today's young people's expression, my father is a veritable foodie, not only delicious, but also can eat.
