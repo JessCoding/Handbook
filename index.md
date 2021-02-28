@@ -2,4 +2,4 @@
 title: Home
 ---
 
-Hello world
+This is a space to share the writings of Meiqin Wu 
